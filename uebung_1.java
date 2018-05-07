@@ -1,8 +1,3 @@
-import java.lang.Math;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
-
 public class uebung_1
 {
 

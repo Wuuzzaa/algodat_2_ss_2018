@@ -105,13 +105,11 @@ public class uebung_2 {
         else if(summe > k) {
             A.remove(n-1);
             check_summe(A, k);
-            return;
         }
         // Summe zu niedrig => niedrigstes Element aus Array löschen
         else if(summe < k) {
             A.remove(0);
             check_summe(A, k);
-            return;
         }
     }
 
@@ -124,7 +122,7 @@ public class uebung_2 {
         //log(7789);
         //zuwachstest();
 
-        ArrayList<Integer> A = new ArrayList<Integer>();
+        ArrayList<Integer> A = new ArrayList<>();
         for(int i = 1; i <=1000; i++){
             A.add(i);
         }
